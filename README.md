@@ -131,4 +131,4 @@ This project's baseline uses qwen2-vl-7b full sft method, with a baseline accura
 | Dialogue Intent Classification Task | 0.6965 | 0.7259    | 0.694  |
 
 ## Official Q&A Group
-<img src="images/qa_group.png" alt="image-20241017192205038" style="zoom:33%;" />
+<img src="images/qa_group.png" alt="image-20241017192205038" width="300" />

@@ -146,4 +146,4 @@ python mire_baseline/cal_acc.py
 
 ## 官方答疑群
 
-<img src="images/qa_group.png" alt="image-20241017192205038" style="zoom:33%;" />
+<img src="images/qa_group.png" alt="image-20241017192205038" width="300" />

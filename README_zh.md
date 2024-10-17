@@ -10,11 +10,11 @@ Multimodal Intent Recognition for Dialogue Systems官方baseline
 
 本项目基于开源项目的训练和推理框架，首先要**安装LLaMA Factory**，具体参考
 
-https://github.com/hiyouga/LLaMA-Factory
+**https://github.com/hiyouga/LLaMA-Factory**
 
 ### 训练
 
-**Step1：**替换配置，
+**Step1:**替换配置，
 
 - 将下载的训练集文件`train.json`放到`LLaMA-Factory/data/mire/train.json`
 - 将数据配置`mire_baseline/configs/data_info.json`替换原始LLaMA-Factory的数据配置`LLaMA-Factory/data/data_info.json`
@@ -28,7 +28,7 @@ FORCE_TORCHRUN=1 llamafactory-cli train examples/qwen2_vl_full_sft.yaml
 
 ### 推理
 
-**step1：**将推理配置`mire_baseline/configs/predict.yaml`放到`LLaMA-Factory/examples/predict.yaml`，注意要修改predict.yaml中的模型地址、测试集、推理结果保存地址等参数。
+**step1:**将推理配置`mire_baseline/configs/predict.yaml`放到`LLaMA-Factory/examples/predict.yaml`，注意要修改predict.yaml中的模型地址、测试集、推理结果保存地址等参数。
 
 **Step2:使用推理配置执行推理命令**
 

@@ -1,6 +1,6 @@
 # MIRE
 
-Multimodal Intent Recognition for Dialogue Systems官方baseline
+WWW2025 Multimodal Intent Recognition for Dialogue Systems的官方baseline
 
 本项目提供了Multimodal Intent Recognition for Dialogue Systems比赛的baseline，具体包含模型训练、评测以及转换成提交结果格式等功能。
 
@@ -55,7 +55,7 @@ python mire_baseline/cal_acc.py
 本项目执行后会打印出类似：
 
 ```json
-{'f1': 0.5333333333333333, 'accuracy': 0.5, 'precision': 0.6, 'recall': 0.5}
+{"f1": 0.5333333333333333, "accuracy": 0.5, "precision": 0.6, "recall": 0.5}
 ```
 
 其中f1为最终评测指标。

@@ -40,7 +40,7 @@ python mire_baseline/cal_acc.py
 ```
 After running this project, you will see output similar to:
 ```json
-{'f1': 0.5333333333333333, 'accuracy': 0.5, 'precision': 0.6, 'recall': 0.5}
+{"f1": 0.5333333333333333, "accuracy": 0.5, "precision": 0.6, "recall": 0.5}
 ```
 Where F1 is the final evaluation metric.
 

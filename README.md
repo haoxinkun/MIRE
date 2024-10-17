@@ -1,5 +1,5 @@
 # MIRE
-**Multimodal Intent Recognition for Dialogue Systems** Official Baseline
+
 This project provides the baseline for the Multimodal Intent Recognition for Dialogue Systems challenge of  WWW2025 , including functions for model training, evaluation, and converting to submission format.
 
 ## How to Use

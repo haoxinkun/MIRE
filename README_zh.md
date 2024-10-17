@@ -1,8 +1,6 @@
 # MIRE
 
-WWW2025 Multimodal Intent Recognition for Dialogue Systems的官方baseline
-
-本项目提供了Multimodal Intent Recognition for Dialogue Systems比赛的baseline，具体包含模型训练、评测以及转换成提交结果格式等功能。
+本项目提供了WWW2025 Multimodal Intent Recognition for Dialogue Systems的官方baseline，具体包含模型训练、评测以及转换成提交结果格式等功能。
 
 ## 如何使用
 

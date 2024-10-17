@@ -14,13 +14,13 @@ Multimodal Intent Recognition for Dialogue Systems官方baseline
 
 ### 训练
 
-**Step1:**替换配置，
+**Step 1:** 替换配置，
 
 - 将下载的训练集文件`train.json`放到`LLaMA-Factory/data/mire/train.json`
 - 将数据配置`mire_baseline/configs/data_info.json`替换原始LLaMA-Factory的数据配置`LLaMA-Factory/data/data_info.json`
 - 将训练配置文件`mire_baseline/configs/qwen2_vl_full_sft.yaml`放到`LLaMA-Factory/examples/qwen2_vl_full_sft.yaml`
 
-**Step2:** 使用训练配置训练，在单机上进行指令监督微调
+**Step 2:** 使用训练配置训练，在单机上进行指令监督微调
 
 ```
 FORCE_TORCHRUN=1 llamafactory-cli train examples/qwen2_vl_full_sft.yaml
@@ -28,9 +28,9 @@ FORCE_TORCHRUN=1 llamafactory-cli train examples/qwen2_vl_full_sft.yaml
 
 ### 推理
 
-**step1:**将推理配置`mire_baseline/configs/predict.yaml`放到`LLaMA-Factory/examples/predict.yaml`，注意要修改predict.yaml中的模型地址、测试集、推理结果保存地址等参数。
+**step 1:** 将推理配置`mire_baseline/configs/predict.yaml`放到`LLaMA-Factory/examples/predict.yaml`，注意要修改predict.yaml中的模型地址、测试集、推理结果保存地址等参数。
 
-**Step2:使用推理配置执行推理命令**
+**Step 2:** 使用推理配置执行推理命令
 
 ```
 llamafactory-cli train examples/predict.yaml
@@ -64,7 +64,7 @@ python mire_baseline/cal_acc.py
 
 本次比赛数据集全部为文本结合图像的分类任务，其中包含2大类：图片场景分类以及多轮对话意图分类。
 
-## 1）图片场景分类：
+### 1）图片场景分类：
 
 图片场景分类的具体场景为用户向客服发了一张图片，需要判断这张图片属于电商场景的哪个类型。具体类型标签以及对应的描述如下：
 
@@ -96,7 +96,7 @@ python mire_baseline/cal_acc.py
 | 平台介入页面                           | 平台客服介入处理的截图                                       |
 | 其他类别图片                           | 拿不准的其他图片                                             |
 
-## 2）对话意图分类
+### 2）对话意图分类
 
 对话意图分类的场景为通过用户与客服的对话历史以及当前用户的问题判断用户的意图，对话历史中包含至少一张用户发的图片，可能有助于意图的判断。意图标签以及对应的描述如下：
 
@@ -126,10 +126,15 @@ python mire_baseline/cal_acc.py
 | 何时上货       | 咨询补货/上货时间                                            |
 | 气泡           | 咨询贴膜如何避免产生气泡及除气泡方法                         |
 
-参赛者可以从天池平台上获取比赛数据集，具体包括：
- • 1,000个标记的对话样本用于训练
- • 10,000个未标记的样本用于初赛测试
- • 在复赛中还有额外的10,000个新测试样本
+## 比赛规则：
+
+- 参赛者可以从天池平台上获取比赛数据集，具体包括：
+  - 1,000个标记的对话样本用于训练
+  - 10,000个未标记的样本用于初赛测试
+  - 在复赛中还有额外的10,000个新测试样本
+
+- 模型参数的最大数量不得超过10B。
+- 每个样本最多允许进行3次模型调用，总输出 token 的最大限制为100。
 
 ## Baseline
 
@@ -143,4 +148,4 @@ python mire_baseline/cal_acc.py
 
 ## 官方答疑群
 
-![image-20241017192205038](images/qa_group.png)
+<img src="images/qa_group.png" alt="image-20241017192205038" style="zoom:33%;" />

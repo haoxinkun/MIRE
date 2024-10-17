@@ -1,13 +1,17 @@
 [tool.poetry]
 name = "mire-baseline"
-version = "0.1.0"
-description = ""
-authors = ["均闻 <liujunwen.ljw@taobao.com>"]
+description = "Multimodal Intent Recognition for Dialogue Systems baseline demo"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
 
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true  
 
 [build-system]
 requires = ["poetry-core"]

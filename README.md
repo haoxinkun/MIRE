@@ -126,9 +126,9 @@ This project's baseline uses qwen2-vl-7b full sft method, with a baseline accura
 
 |                  | F1        | Precision | Recall |
 |------------------|-----------|-----------|--------|
-| Overall           | **0.806** | 0.8256    | 0.806  |
-| Dialogue Intent Classification Task | 0.9155 | 0.9253    | 0.918  |
-| Image Scene Classification Task | 0.6965 | 0.7259    | 0.694  |
+| Overall           | **0.7882** | 0.8093    | 0.787  |
+| Dialogue Intent Classification Task | 0.8648 | 0.8812    | 0.866  |
+| Image Scene Classification Task | 0.7116 | 0.7373    | 0.708  |
 
 ## Official Q&A Group
 

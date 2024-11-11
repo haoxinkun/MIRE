@@ -58,7 +58,7 @@ The specific scene for image scene classification is when users send a picture t
 | 下单过程中出现异常（显示购买失败浮窗） | Screenshot of exceptions during the ordering process (showing purchase failed popup) |
 | 订单详情页面                           | A page displaying complete order information                 |
 | 支付页面                               | Includes payment method selection and payment success page   |
-| 消费者与客服聊天页面                   | Chat pages between the consumer and platform/customer service in apps like Taobao |
+| ~~消费者与客服聊天页面~~                   | ~~Chat pages between the consumer and platform/customer service in apps like Taobao~~ |
 | 评论区截图页面                         | Screenshots of the comment area in Taobao or other apps      |
 | 物流页面-物流列表页面                  | A page presenting more than two logistic information         |
 | 物流页面-物流跟踪页面                  | A page showing the logistics transportation path             |
@@ -71,7 +71,7 @@ The specific scene for image scene classification is when users send a picture t
 | 活动页面                               | Screenshots of promotions                                    |
 | 优惠券领取页面                         | Screenshots of receiving coupons on the store's home page or promotional pages |
 | 账单/账户页面                          | Includes transaction details, asset lists, coupon/red envelope lists, etc. |
-| 个人信息页面                           | Various pages related to user personal information           |
+| ~~个人信息页面~~                           | ~~Various pages related to user personal information~~           |
 | 投诉举报页面                           | Complaint or reporting pages                                 |
 | 实物拍摄(含售后)                       | Photos taken by users with a camera, including photos after-sales (damages, missing items, discrepancies with description) or other photos taken with a camera |
 | 外部APP截图                            | Various screenshots from non-Taobao or Cainiao apps, including Jingdong, Pinduoduo, SMS, mobile system screenshots |

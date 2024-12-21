@@ -50,8 +50,10 @@ def cal_acc(test_file, pred_file):
 
 
 if __name__ == "__main__":
-    test_file = "data/demo_test.json"
-    pred_file = "data/demo_pred.jsonl"
+    test_file = "/Work/haoxinkun7091/MIRE/data/train/train.json"
+    pred_file = "/Work/haoxinkun7091/MIRE/LLaMA-Factory/saves/qwen2_vl-2b/full/sft-infer-train/generated_predictions.jsonl"
+    # test_file = "data/demo_test.json"
+    # pred_file = "data/demo_pred.jsonl"
     metrics = cal_acc(test_file, pred_file)
 
     print(metrics)

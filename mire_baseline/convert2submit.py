@@ -24,8 +24,8 @@ def convert2submit(test_file: Path, prediction_file: Path, save_path: Path):
 
 
 if __name__ == "__main__":
-    test_file = "data/demo_test.json"
-    prediction_file = "data/demo_pred.jsonl"
+    test_file = "/Work/haoxinkun7091/MIRE/data/train/train.json"
+    prediction_file = "/Work/haoxinkun7091/MIRE/LLaMA-Factory/saves/qwen2_vl-2b/full/sft-infer-train/generated_predictions.jsonl"
     save_path = "submit.csv"
     convert2submit(test_file, prediction_file, save_path)
 
